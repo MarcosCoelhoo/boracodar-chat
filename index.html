@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Chat de Mensagens</title>
+</head>
+
+<body>
+  <main class="container">
+    <header>
+      <div class="profile">
+        <div class="avatar">
+          <img src="./imgs/perfil.png" alt="profile image">
+        </div>
+        <div class="info">
+          <h1>Cecilia Sassaki</h1>
+          <p>Online</p>
+        </div>
+      </div>
+      <div class="close">
+        <img src="./imgs/close.svg" alt="close">
+      </div>
+    </header>
+
+    <section class="container-chat">
+      <div class="time-chat">
+        <h2>Hoje 11:30</h2>
+      </div>
+      <ul class="chat">
+        <li class="msg-container sender">
+          <div class="time-msg">
+            <p>Cecilia - 11:30</p>
+          </div>
+          <div class="msg-box">
+            <h3>Tive uma ideia incrível para um projeto! 😍</h3>
+          </div>
+        </li>
+
+        <li class="msg-container receiver">
+          <div class="time-msg">
+            <p>Você - 11:32</p>
+          </div>
+          <div class="msg-box">
+            <h3>Sério? Me conta mais.</h3>
+          </div>
+        </li>
+
+        <li class="msg-container sender">
+          <div class="time-msg">
+            <p>Cecilia - 11:34</p>
+          </div>
+          <div class="msg-box">
+            <h3>E se a gente fizesse um chat moderno e responsivo em apenas uma semana?</h3>
+          </div>
+        </li>
+
+        <li class="msg-container receiver">
+          <div class="time-msg">
+            <p>Você - 11:36</p>
+          </div>
+          <div class="msg-box">
+            <h3>Sério? Me conta mais.</h3>
+          </div>
+        </li>
+      </ul>
+      <div class="input-send">
+        <input type="text" name="send-message" id="send-message" placeholder="Digite sua mensagem">
+        <img src="./imgs/send.svg" alt="">
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
